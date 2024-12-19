@@ -1,10 +1,26 @@
-# Default ignored files
-/shelf/
-/.idea/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-.idea
-/conversations
+# Directorio de construcción
+build/
+dist/
+*.egg-info/
+
+# Entorno virtual
+.venv/
+.env/
+
+# Configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
